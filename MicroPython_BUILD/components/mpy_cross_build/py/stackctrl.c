@@ -23,7 +23,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+#pragma GCC diagnostic ignored "-Wdangling-pointer=1"
 #include "py/runtime.h"
 #include "py/stackctrl.h"
 
